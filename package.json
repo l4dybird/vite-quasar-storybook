@@ -1,0 +1,41 @@
+{
+  "name": "vite-quasar-storybook",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@mdx-js/react": "2.1.1",
+    "@quasar/extras": "1.14.0",
+    "quasar": "2.7.1",
+    "vue": "3.2.25"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.2",
+    "@quasar/vite-plugin": "1.0.10",
+    "@storybook/addon-actions": "6.5.6",
+    "@storybook/addon-essentials": "6.5.6",
+    "@storybook/addon-interactions": "6.5.6",
+    "@storybook/addon-links": "6.5.6",
+    "@storybook/builder-vite": "0.1.35",
+    "@storybook/testing-library": "0.0.11",
+    "@storybook/vue3": "6.5.6",
+    "@vitejs/plugin-vue": "2.3.3",
+    "babel-loader": "8.2.5",
+    "sass": "1.32.12",
+    "vite": "2.9.9",
+    "vue-loader": "16.8.3"
+  },
+  "resolutions": {
+    "sass": "1.32.12"
+  },
+  "volta": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
+  }
+}
